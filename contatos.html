@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch.com - Contatos</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <div class="container">
+        <nav> 
+            <ul> 
+                <li> 
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li> 
+                    <a href="projetos.html">Projetos</a>
+                </li>
+                <li> 
+                    <a href="contatos.html">Contatos</a> 
+                </li>
+            </ul>
+        </nav>
+        <header> 
+            <div class="center">
+                <img src="./img/dutch.png" alt="Dutch Van Der Linde">
+            </div>
+            <h1> Dutch Van Der Linde</h1>
+            <h2> Formado em agronomia e Cowboy nos tempos livres </h2>
+        </header> 
+        <main> 
+            <section class="dutch"> 
+                <h3>Contatos</h3>
+                <p>Se precisar de mais informações sobre o meu trabalho no sítio, entre em contato preenchendo o formulário abaixo:</p>
+
+                <form action="enviar-formulario.html" method="get" target="_blank">
+                    <label for="nome">Nome:</label>
+
+                    <input type="text"  id="nome" name="nome" placeholder="Seu nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer> 
+            <div class="social">
+                <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <img src="./img/linkedln.png" alt="LinkedIn">
+                </a>
+                <a href="https://pt-br.facebook.com/" target="_blank">
+                    <img src="./img/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.orkut.com" target="_blank">
+                    <img src="./img/orkut.png" alt="Orkut">
+                </a>
+                <a href="https://web.whatsapp.com" target="_blank">
+                    <img src="./img/zap.png" alt="WhatsApp">
+                </a>
+                <a href="https://www.youtube.com/watch?v=tBx3HsyEygo" target="_blank">
+                    <img src="./img/youtube.png" alt="YouTube">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

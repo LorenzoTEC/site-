@@ -1,0 +1,183 @@
+/* Cor de fundo do site e fonte */
+body {
+    color: white;
+    background-color: #121515;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cor dos títulos (h1, h2, h3) */
+h1, h2, h3 {
+    color: #FF6F61;
+}
+
+/* Deixa os links brancos e com efeito quando passa o mouse */
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FF6F61;
+    text-decoration: underline;
+}
+
+/* Centraliza o título principal e adiciona um sublinhado */
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+/* Deixa o menu no topo organizado */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* Estilo da foto no topo (deixa redonda e com borda) */
+header img {
+    width: 150px;
+    height: 159px;
+    border-radius: 50%;
+    border: 4px solid #FF6F61;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo das imagens no rodapé (pequenas e redondas) */
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+/* Deixa o rodapé alinhado e centralizado */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 20px;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+footer a {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* Centraliza o conteúdo */
+.center {
+    text-align: center;
+}
+
+/* Espaçamento nas bordas da página */
+.countainer {
+    padding: 0px 30px;
+}
+
+/* Efeito ao passar o mouse nos links do menu */
+nav a:hover {
+    color: rgb(255, 87, 87);
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #FF6F61;
+}
+
+/* Estilo dos campos de texto */
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+/* Estilo do botão de enviar */
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3e3e;
+}
+
+/* Redes sociais (deixa os ícones das redes centralizados) */
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social a:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos dos textos dos projetos */
+.proj2, .proj1 h2 {
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.dutch {
+    padding-left: 15px;
+}
+
+/* Tamanho dos títulos dos projetos */
+h2 {
+    padding-left: 20px;
+}
+
+h3 {
+    padding-left: 35px;
+}
+
